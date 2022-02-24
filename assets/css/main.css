@@ -2690,6 +2690,12 @@ input[type="radio"]+label:before {
 	width: 100%;
 }
 
+.image-propos {
+	width: 21%;
+	height: auto;
+	border: solid 1px rgba(165, 63, 63, 0.15);
+}
+
 /* List */
 
 ol {
@@ -3589,7 +3595,7 @@ body.is-preload .wrapper.fade>.inner {
 }
 
 #footer>.inner .menu {
-	font-size: 0.3em;
+	font-size: 0.6em;
 	color: rgba(255, 255, 255, 0.15);
 }
 
@@ -3939,19 +3945,43 @@ body.is-preload #sidebar nav ul li {
 
 }
 
-/* Array BTS SIO */
+/* BTS SIO */
+
+/* Div */
 .flex-container {
 	display: flex;
 }
 
 .flex-child {
 	flex: 1;
+	padding: 1%;
 	border: 2px solid rgb(54, 160, 95);
 	background-color: #333B50;
 }
 
 .flex-child:first-child {
 	margin-right: 20px;
+}
+
+
+/* Texte */
+
+.description-BTS {
+	text-align: justify;
+	margin: 3%;
+}
+
+.title {
+	text-align: center;
+}
+
+.option-BTS {
+	color: white;
+	margin: 3%;
+}
+
+.veille-description {
+	text-align: justify;
 }
 
 @media screen and (max-width: 736px) {

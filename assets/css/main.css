@@ -42,6 +42,10 @@ ol, ul {
 	list-style: none;
 }
 
+.title {
+	font-style: oblique;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -2941,6 +2945,11 @@ ul.menu>li:first-child {
 		padding-left: 0;
 	}
 
+}
+
+/* Data-Inco */
+.dataInco-picture {
+	width: 70%;
 }
 
 /* Split */
